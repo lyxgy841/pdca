@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(bash .claude/scripts/pdca.sh status)",
+      "Bash(bash .claude/scripts/pdca.sh context)",
+      "Bash(bash .claude/scripts/pdca.sh init \"Test feature implementation\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"Requirements analyzed\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"Architecture designed\")",
+      "Bash(bash .claude/scripts/pdca.sh transition PLANNED)",
+      "Bash(bash .claude/scripts/pdca.sh record-stop)",
+      "Bash(bash .claude/scripts/pdca.sh reset)",
+      "Bash(bash .claude/scripts/pdca.sh init \"测试中文PDCA\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"需求分析完成\")",
+      "Bash(bash .claude/scripts/pdca.sh init \"实现用户登录功能\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"计划完成：3 个子任务已拆分\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"子任务 1: 创建登录表单组件 完成\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"子任务 2: 实现登录 API 端点 完成\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"子任务 3: 添加 JWT 认证中间件 完成\")",
+      "Bash(bash .claude/scripts/pdca.sh history)",
+      "Bash(bash .claude/scripts/pdca.sh init \"测试需求拆分\")",
+      "Bash(bash .claude/scripts/pdca.sh init \"用户登录系统\")",
+      "Bash(python -c ' *)",
+      "Bash(bash .claude/scripts/pdca.sh transition DOING)",
+      "Bash(bash .claude/scripts/pdca.sh step \"子任务 1: 创建登录表单 完成\")",
+      "Bash(bash .claude/scripts/pdca.sh transition CHECKING)",
+      "Bash(bash .claude/scripts/pdca.sh step \"检查完成：子任务 1 PASS\")",
+      "Bash(bash .claude/scripts/pdca.sh transition ACTING)",
+      "Bash(bash .claude/scripts/pdca.sh step \"子任务 2: 实现 API 端点 完成\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"检查完成：子任务 2 FAIL\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"处理：子任务 2 未通过，重新执行\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"子任务 3: JWT 中间件 完成\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"检查完成：子任务 3 PASS\")",
+      "Bash(bash .claude/scripts/pdca.sh step \"处理：全部子任务通过，周期完成\")"
+    ]
+  }
+}

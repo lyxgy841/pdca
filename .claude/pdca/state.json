@@ -1,0 +1,13 @@
+{
+  "phase": "IDLE",
+  "task": "",
+  "cycle_id": "",
+  "cycle_dir": "",
+  "started_at": "",
+  "current_phase_started_at": "",
+  "current_subtask": 0,
+  "total_subtasks": 0,
+  "subtask_results": [],
+  "steps_completed": [],
+  "phase_history": []
+}

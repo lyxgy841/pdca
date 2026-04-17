@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PrePromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/scripts/pdca.sh context"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/scripts/pdca.sh record-stop"
+          }
+        ]
+      }
+    ]
+  }
+}
