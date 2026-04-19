@@ -81,4 +81,4 @@ IDLE → PLANNING → PLANNED → DOING → DONE → CHECKING → CHECKED → AC
 2. 给出一个编码任务（如"实现用户登录功能"）
 3. Claude Code 将自动按照 PDCA 流程执行：拆分子任务 → 逐个执行 → 检查 → 决策
 
-> 详细的流程规范见 [CLAUDE.md](CLAUDE.md)。
+> 详细的流程规范见 [.claude/instructions/pdca.md](.claude/instructions/pdca.md)。
